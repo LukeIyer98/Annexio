@@ -1,0 +1,168 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\tests\\RESTCountries.NET.Tests\\RESTCountries.NET.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\src\\RESTCountries.NET\\RESTCountries.NET.csproj": {
+      "version": "2.1.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\src\\RESTCountries.NET\\RESTCountries.NET.csproj",
+        "projectName": "RESTCountries.NET",
+        "projectPath": "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\src\\RESTCountries.NET\\RESTCountries.NET.csproj",
+        "packagesPath": "C:\\Users\\lukei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\src\\RESTCountries.NET\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SigniFlow/_packaging/SigniFlow/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\tests\\RESTCountries.NET.Tests\\RESTCountries.NET.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\tests\\RESTCountries.NET.Tests\\RESTCountries.NET.Tests.csproj",
+        "projectName": "RESTCountries.NET.Tests",
+        "projectPath": "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\tests\\RESTCountries.NET.Tests\\RESTCountries.NET.Tests.csproj",
+        "packagesPath": "C:\\Users\\lukei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\tests\\RESTCountries.NET.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lukei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/SigniFlow/_packaging/SigniFlow/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\src\\RESTCountries.NET\\RESTCountries.NET.csproj": {
+                "projectPath": "C:\\Users\\lukei\\Downloads\\RESTCountries.NET-master\\RESTCountries.NET-master\\src\\RESTCountries.NET\\RESTCountries.NET.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

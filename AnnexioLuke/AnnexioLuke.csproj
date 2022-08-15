@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="tests\RESTCountries.NET.Tests\RESTCountries.NET.Tests.csproj" />
+    <None Include="wwwroot\css\IndexStyling.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.9" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RESTCountries.NET" Version="2.1.0" />
+    <PackageReference Include="Shouldly" Version="4.0.3" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="tests\RESTCountries.NET.Tests\obj\Debug\net5.0\refint\" />
+    <Folder Include="tests\RESTCountries.NET.Tests\obj\Debug\net5.0\ref\" />
+    <Folder Include="Views\Home\Styling\" />
+  </ItemGroup>
+
+</Project>

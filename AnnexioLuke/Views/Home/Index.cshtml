@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@*@model AnnexioLuke.Controllers.HomeController
+@{
+    List<Countries>;
+
+}*@
+
+@model AnnexioLuke.Models.Countries  
+@{
+   
+    ViewBag.Title = "Index";  
+} 
+<head>
+    <link href="@Url.Content("~/css/IndexStyling.css")" rel="stylesheet" type="text/css" />
+    @RenderSection("css", true)
+</head>
+
+ <p class = "MainHeader"> Country Info!</p> 
+
+<div class = "DropDown">
+    
+@using (Html.BeginForm())  
+{  
+    <label>  
+        Select Country
+    </label>  
+       @Html.DropDownList("CountryInfo", (IEnumerable<SelectListItem>)ViewBag.statelist,"Choose a Country");  
+     <p>  
+        <input type="Submit" value="Submit" />  
+    </p>  
+} 
+</div>
+
+
+
